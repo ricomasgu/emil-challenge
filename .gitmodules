@@ -1,0 +1,6 @@
+[submodule "grpc-microservice"]
+	path = grpc-microservice
+	url = https://github.com/ricomasgu/grpc-microservice.git
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/ricomasgu/api-gateway.git
