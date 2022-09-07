@@ -24,13 +24,16 @@ To set up the environment you have to:
  - Initialize and update the submodules
  - Execute the docker compose
 
-The two first steps is the first command.
-
+The two first steps are covered by this command:
 ```bash
 git clone --recurse-submodules https://github.com/ricomasgu/emil-challenge.git
 ```
+Change to emil-challenge directory:
 ```bash
 cd emil-challenge
+```
+Build the whole environment:
+```bash
 docker compose -f docker-compose.yaml up
 ```
 Now you are ready to check the app.
