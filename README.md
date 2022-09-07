@@ -76,7 +76,7 @@ There are no tests configured.
 ## Next steps
 There are a lot of improvements:
  - I did not use the TDD methodology. The idea is create the tests before you implement the functions.
- - The first thing coming up to my head on future features, is to support the vehicle ans mobile authentication and go to automotive and smartphone sectors.
+ - The first thing coming up to my head on future features, is to support the vehicle and mobile authentication.
  - Logging
  - Error handling
  - Seed file to include at least one user to play.
