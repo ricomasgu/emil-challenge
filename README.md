@@ -5,6 +5,9 @@ Solution presented to EMIL for the challenge.
 ## Set up the environment
 
 ### The Environment
+
+![image](https://user-images.githubusercontent.com/25822915/188864066-5f5651f5-c69f-413b-87df-91d34a3cb2d5.png)
+
 When executing the docker-compose.yaml file:
  - Downloads the mongo image from docker. The official image of mongoDB database. The port 28000 is opened in case you want to access it.
  - Downloads the mongo-express image. The official image of mongo-express. This application connects to the mongo database and helps you to see and modify the content. You can access it at http://localhost:9000.
