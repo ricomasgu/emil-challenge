@@ -94,7 +94,7 @@ There are a lot of improvements:
  - Right now, the coordinates saved are not linked to the user, I need to fix that.
 
 ## Considerations
- - It was my first time with Nest, Docker and Microservices and everything takes time.
+ - It was my first time with Nest, Docker and Microservices and it took time to learn how to use them.
  - If you want to know the path I followed (only the videos that I think are cool):
    - [Nest Overview](https://www.youtube.com/watch?v=0M8AYU_hPas)
    - [Nest API](https://www.youtube.com/watch?v=F_oOtaxb0L8&t)
