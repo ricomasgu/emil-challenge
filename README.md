@@ -80,6 +80,7 @@ There are a lot of improvements:
  - Logging
  - Error handling
  - Seed file to include at least one user to play.
+ - Right now, the coordinates saved are not linked to the user, I need to fix that.
 
 ## Considerations
  - It was my first time with Nest, Docker and Microservices and everything takes time.
