@@ -70,7 +70,8 @@ We can introduce new coordinates with a POST localhost:6000/coordinates/new-coor
 }
 ```
 You will receive a message "Coordinates are saved!" if everything goes well.
-**I suggest you to have both preparede in advance because I put a minute as a timeout in the session.**
+
+**I suggest you to have both prepared in advance because I put a minute as a timeout in the session.**
 
 ### Setting down
 To setting down the application.
@@ -106,4 +107,4 @@ There are a lot of improvements:
    - [Docker](https://www.youtube.com/watch?v=3c-iBn73dDE)
  - You will see that I used the samples I watched to develop this application.
 
-I suggest to you see the 4 parts of microservices in order to follow better.
+**I suggest to you see the 4 parts of microservices in order to follow better.**
