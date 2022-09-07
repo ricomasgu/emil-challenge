@@ -6,7 +6,7 @@ Solution presented to EMIL for the challenge.
 
 ### The Environment
 
-<img src="https://user-images.githubusercontent.com/25822915/188864066-5f5651f5-c69f-413b-87df-91d34a3cb2d5.png" with="200" height="auto">
+![image](https://user-images.githubusercontent.com/25822915/188864066-5f5651f5-c69f-413b-87df-91d34a3cb2d5.png)
 
 When executing the docker-compose.yaml file:
  - Downloads the mongo image from docker. The official image of mongoDB database. The port 28000 is opened in case you want to access it.
@@ -47,7 +47,7 @@ Now you are ready to check the app.
 I did not have time to create a seeds file, then you have to create a user manually with mongo-express.
 
 Go to http://localhost:9000 -> test -> users and create a new document.
-<img src="https://user-images.githubusercontent.com/25822915/188863740-dd611b95-7f49-43a8-babf-ec141e600335.png" with="200" height="200">
+<img src="https://user-images.githubusercontent.com/25822915/188863740-dd611b95-7f49-43a8-babf-ec141e600335.png" with="400" height="400">
 
 ### Log in the application
 You can log in the application with postman or a similar application.
