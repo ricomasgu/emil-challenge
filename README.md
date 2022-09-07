@@ -27,9 +27,10 @@ To set up the environment you have to:
 The two first steps is the first command.
 
 ```bash
-$ git clone --recurse-submodules https://github.com/ricomasgu/emil-challenge.git
-
-$ docker compose -f docker-compose.yaml up
+git clone --recurse-submodules https://github.com/ricomasgu/emil-challenge.git
+```
+```bash
+docker compose -f docker-compose.yaml up
 ```
 Now you are ready to check the app.
 
