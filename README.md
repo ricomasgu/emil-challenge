@@ -1,6 +1,6 @@
 ## Description
 
-Solution presented to EMIL for the challenge presented.
+Solution presented to EMIL for the challenge.
 
 ## Set up the environment
 
