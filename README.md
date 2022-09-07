@@ -41,7 +41,7 @@ Go to http://localhost:9000 -> test -> users and create a new document.
 
 ### Log in the application
 You can log in the application with postman or a similar application.
-What you have to do is execute a POST /auth/login request including in the body a raw JSON with the username and the password you used in the last step, for example:
+What you have to do is execute a POST localhost:6000/auth/login request including in the body a raw JSON with the username and the password you used in the last step, for example:
 
 {
   "username": "rick",
@@ -52,7 +52,7 @@ You will receive a JSON with all the information as a response if everything goe
 
 Then you can introduce new coordinates. If you try to access without authentication, you will see a 403.
 
-We can introduce new coordinates with a POST /coordinates/new-coordinates request including in the body a raw JSON with the latitude and the longitude of the coordinates you are, for example:
+We can introduce new coordinates with a POST localhost:6000/coordinates/new-coordinates request including in the body a raw JSON with the latitude and the longitude of the coordinates you are, for example:
 
 {
   "latitude": "41.3874",
