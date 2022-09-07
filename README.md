@@ -9,7 +9,8 @@ When executing the docker-compose.yaml file:
  - Downloads the mongo image from docker. The official image of mongoDB database. The port 28000 is opened in case you want to access it.
  - Downloads the mongo-express image. The official image of mongo-express. This application connects to the mongo database and helps you to see and modify the content. You can access it at http://localhost:9000.
  - Builds the api-gateway image. This application manages the user authentication and send the information about coordinates to grpc-microservice using GRPC as a Transport.
- - Builds the grpc-microservice, a microservice that receives coordinates and save them in the mongoDB. 
+ - Builds the grpc-microservice, a microservice that receives coordinates and save them in the mongoDB.
+ - Under the hood docker creates a new network and all the containers are able to know each other by the name.
 
 
 ### Prerequisites
@@ -42,24 +43,31 @@ Go to http://localhost:9000 -> test -> users and create a new document.
 ### Log in the application
 You can log in the application with postman or a similar application.
 What you have to do is execute a POST localhost:6000/auth/login request including in the body a raw JSON with the username and the password you used in the last step, for example:
-
+```json
 {
   "username": "rick",
   "password": "Pa12345678"
 }
-
+```
 You will receive a JSON with all the information as a response if everything goes well.
 
 Then you can introduce new coordinates. If you try to access without authentication, you will see a 403.
 
 We can introduce new coordinates with a POST localhost:6000/coordinates/new-coordinates request including in the body a raw JSON with the latitude and the longitude of the coordinates you are, for example:
-
+```json
 {
   "latitude": "41.3874",
   "longitude": "2.1686"
 }
-
+```
 You will receive a message "Coordinates are saved!" if everything goes well.
+
+### Setting down
+To setting down the application.
+
+```bash
+docker compose -f docker-compose.yaml down
+```
 
 ## Test
 
