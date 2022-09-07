@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - "28000:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=Passw0rd
+    volumes:
+      - /data/db
+
+  mongo-express:
+    image: mongo-express
+    ports:
+      - "9000:8081"
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=Passw0rd
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+    restart: always
+
+  api-gateway:
+    container_name: api-gateway
+    env_file:
+      - ./api-gateway/.env
+    build:
+      context: ./api-gateway/
+    command: sh -c "yarn start"
+    volumes:
+      - /app/node_modules
+    depends_on:
+      - mongodb
+    ports:
+      - "6000:3000"
+
+  grpc-microservice:
+    container_name: grpc-microservice
+    env_file:
+      - ./grpc-microservice/.env
+    build:
+      context: ./grpc-microservice/
+    volumes:
+      - /app/node_modules
+    depends_on:
+      - mongodb
