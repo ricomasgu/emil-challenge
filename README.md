@@ -70,6 +70,7 @@ We can introduce new coordinates with a POST localhost:6000/coordinates/new-coor
 }
 ```
 You will receive a message "Coordinates are saved!" if everything goes well.
+**I suggest you to have both preparede in advance because I put a minute as a timeout in the session.**
 
 ### Setting down
 To setting down the application.
