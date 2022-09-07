@@ -85,15 +85,15 @@ There are a lot of improvements:
 ## Considerations
  - It was my first time with Nest, Docker and Microservices and everything takes time.
  - If you want to know the path I followed (only the videos that I think are cool):
-   - Nest: https://www.youtube.com/watch?v=0M8AYU_hPas
-   - Nest API: https://www.youtube.com/watch?v=F_oOtaxb0L8&t
-   - Nest MongoDB: https://www.youtube.com/watch?v=ulfU5vY6I78
-   - Nest Authentication: https://www.youtube.com/results?search_query=nestjs+authentication
-   - Nest Microservices 1: https://www.youtube.com/watch?v=w7zJNMOIRbw
-   - Nest Microservices 2: https://www.youtube.com/watch?v=IpoaVi9iPWI
-   - Nest Microservices 3: https://www.youtube.com/watch?v=CggqI_82ICc
-   - Nest Microservices 4: https://www.youtube.com/watch?v=OuyxRE9xLw4 
-   - Docker: https://www.youtube.com/watch?v=3c-iBn73dDE
+   - [Nest Overview](https://www.youtube.com/watch?v=0M8AYU_hPas)
+   - [Nest API](https://www.youtube.com/watch?v=F_oOtaxb0L8&t)
+   - [Nest MongoDB](https://www.youtube.com/watch?v=ulfU5vY6I78)
+   - [Nest Authentication](https://www.youtube.com/watch?v=_L225zpUK0M&t)
+   - [Nest Microservices 1](https://www.youtube.com/watch?v=w7zJNMOIRbw)
+   - [Nest Microservices 2](https://www.youtube.com/watch?v=IpoaVi9iPWI)
+   - [Nest Microservices 3](https://www.youtube.com/watch?v=CggqI_82ICc)
+   - [Nest Microservices 4](https://www.youtube.com/watch?v=OuyxRE9xLw4)
+   - [Docker](https://www.youtube.com/watch?v=3c-iBn73dDE)
  - You will see that I used the samples I watched to develop this application.
 
 I suggest to you see the 4 parts of microservices in order to follow better.
