@@ -30,6 +30,7 @@ The two first steps is the first command.
 git clone --recurse-submodules https://github.com/ricomasgu/emil-challenge.git
 ```
 ```bash
+cd emil-challenge
 docker compose -f docker-compose.yaml up
 ```
 Now you are ready to check the app.
