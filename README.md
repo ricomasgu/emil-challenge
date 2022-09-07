@@ -47,6 +47,7 @@ Now you are ready to check the app.
 I did not have time to create a seeds file, then you have to create a user manually with mongo-express.
 
 Go to http://localhost:9000 -> test -> users and create a new document.
+
 <img src="https://user-images.githubusercontent.com/25822915/188863740-dd611b95-7f49-43a8-babf-ec141e600335.png" with="400" height="400">
 
 ### Log in the application
